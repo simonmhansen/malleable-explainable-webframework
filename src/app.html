@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.32.0/ monaco.min.js"></script>
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+		<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+		<link rel="stylesheet" href="global.css" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<py-config type="json">
+			{
+			  "packages": ["scikit-learn", "pandas", "dill"]
+			}
+		</py-config>
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

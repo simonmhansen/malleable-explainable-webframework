@@ -1,0 +1,14 @@
+.monaco_editor {
+    position:absolute; right:0; top:30px;
+    width:50%; max-height:100% !important;
+    bottom: 0px;
+    margin:0; padding:0;
+    overflow:hidden;
+}
+
+pre.py-terminal {
+    visibility: hidden;
+    display: none;
+    /* TODO: display ontop  */
+    /* width: 49%; */
+  }
